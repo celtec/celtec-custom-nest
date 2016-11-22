@@ -1,8 +1,10 @@
-# Nest
+# Celtec Custom Nest
+
+This repo is a fork of [Nest](https://github.com/molivier/nest) theme customized for [Celtec Rastreamento](https://celtec.github.io) site.
+
+## About Nest
 
 Nest is a theme for [Pelican](http://getpelican.com) 3.5+, a static site generator written in Python.
-
-I initially created this theme for [my blog](http://www.molivier.com), but now the theme is supposed to be generic enough to have its own repository.
 
 ## Screenshots
 
