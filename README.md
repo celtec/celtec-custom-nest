@@ -8,44 +8,15 @@ Nest is a theme for [Pelican](http://getpelican.com) 3.5+, a static site generat
 
 ## Screenshots
 
-### Homepage
+![Celtec Index View](homepage.png)
 
-![Nest Index View](homepage.png)
+## Regenerating minified version
 
-### Homepage with background
-
-![Nest Article View](homepage-background.png)
-
-Add a background image by configuring `NEST_HEADER_IMAGES` parameter in your pelican.conf. Image should be located in `content/images` directory.
-
-### Article
-
-![Nest Index View](article.png)
-
-### Article or page with background
-
-![Nest Article View](article-background.png)
-
-Add a background image by adding `Illustration` custom parameter in your markdown article or page. Image should be located in `content/images` directory.
-
-	Title: Ubuntu Install
-	Date: 2015-02-18 16:00
-	Category: server
-	Tags: ubuntu, kernel
-	Slug: ubuntu-install
-	Author: Matthieu OLIVIER
-	Illustration: background.jpg
-
-
-## Features
-
-* Featured site header image
-* Featured article header image
-* **Pygments** syntax highlighting
-* **Disqus** support for comments
-* **Google Analytics** support
-* **Piwik** support
-* RSS and Atom feeds
+```
+npm install -g minifier
+rm static/css/all.min.css
+minify -o static/css/all.min.css static/css/*.css
+```
 
 ## Settings
 
@@ -142,3 +113,4 @@ The theme uses external softwares, scripts, libraries and artworks:
 
 * [Bootstrap](http://getbootstrap.com/) 3.x.x
 * [Open Sans Font](http://www.google.com/fonts/specimen/Open+Sans)
+
