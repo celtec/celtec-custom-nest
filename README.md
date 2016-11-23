@@ -65,10 +65,6 @@ MENUITEMS = [('Homepage', '/'),('Categories','/categories.html')]
 NEST_HEADER_IMAGES = ''
 NEST_HEADER_LOGO = '/image/logo.png'
 # Footer
-NEST_SITEMAP_COLUMN_TITLE = u'Sitemap'
-NEST_SITEMAP_MENU = [('Archives', '/archives.html'),('Tags','/tags.html'), ('Authors','/authors.html')]
-NEST_SITEMAP_ATOM_LINK = u'Atom Feed'
-NEST_SITEMAP_RSS_LINK = u'RSS Feed'
 NEST_SOCIAL_COLUMN_TITLE = u'Social'
 NEST_LINKS_COLUMN_TITLE = u'Links'
 NEST_COPYRIGHT = u'&copy; blogname 2015'
