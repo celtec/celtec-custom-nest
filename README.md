@@ -18,6 +18,24 @@ rm static/css/all.min.css
 minify -o static/css/all.min.css static/css/*.css
 ```
 
+## Custom Settings
+
+You can use our custom settings to add logos in your `pelicanconf.py`:
+
+```
+LOGOS = ({
+    'title': 'IVEI',
+    'filename': 'logo_ivei.png',
+    'url': 'https://www.ivei.com.br'
+    }, {
+        'title': 'Autocargo',
+        'filename': 'logo_autocargo.png',
+        'url': 'https://www2.autocargo.com.br'
+        }
+    )
+```
+
+
 ## Settings
 
 Nest template can be customized by adding parameters to your `pelicanconf.py` file. Template specifics parameters are prefixed with template name.
